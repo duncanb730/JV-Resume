@@ -246,7 +246,7 @@ var work = [
 		"location": "San Francisco, CA"
 	},
 	{
-		"employer": "Fugro Pelagos, Inc.",
+		"employer": "NOAA/Fugro Pelagos, Inc.",
 		"title": "Data Analyst",
 		"location": "Dutch Harbor, AK"
 	},
@@ -268,16 +268,10 @@ var work = [
 	{
 		"employer": "Fugro Pelagos, Inc.",
 		"title": "Project Navigation Officer",
-		"location": "Manila Bay, Luzon, Philippines"
+		"location": "Manila Bay"
 	}
 ];
-// "jobs": [
-		
-		
-		
-		
-		
-// 	],
+
 
 function displayWork() {
 	$("#workExperience").append(HTMLworkStart);
