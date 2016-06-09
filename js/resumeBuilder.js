@@ -234,35 +234,50 @@ var work = [
 		"dates": "2014-2015",
 		"location": "Franklin, TN",
 		"description": "Unloaded trucks using heavy machinery, but also stocked shelves, ran POS stations, built displays, drove cleaning machinery, and repaired damage done by customers or clumsy employees. In many ways, doing almost everything possible in the store, short of management."
+	},
+	{
+		"employer": "Bean/Stuyvesant, LLC",
+		"title": "Field Engineer",
+		"location": "Tampa Bay, FL"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Field Engineer",
+		"location": "San Francisco, CA"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Data Analyst",
+		"location": "Dutch Harbor, AK"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "GPS Reference Specialist",
+		"location": "Saginaw, MI"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Assistant Cable Engineer",
+		"location": "Keelung City, Taiwan"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Project Navigation Officer",
+		"location": "South China Sea"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Project Navigation Officer",
+		"location": "Manila Bay, Luzon, Philippines"
 	}
 ];
-// var "jobs": [
-// 	{
-// 		"employer": "Bean/Stuyvesant, LLC",
-// 		"title": "Field Engineer",
-// 		"location": "Tampa Bay, FL"
-// 	},
-// 	{
-// 		"employer": "Fugro Pelagos, Inc.",
-// 		"title": "Field Engineer",
-// 		"location": "San Francisco, CA"
-// 	},
-// 	{
-// 		"employer": "Fugro Pelagos, Inc.",
-// 		"title": "Assistant Cable Engineer",
-// 		"location": "Keelung, Taiwan"
-// 	},
-// 	{
-// 		"employer": "Fugro Pelagos, Inc.",
-// 		"title": "Project Navigation Officer",
-// 		"location": "South China Sea"
-// 	},
-// 	{
-// 		"employer": "Fugro Pelagos, Inc.",
-// 		"title": "Project Navigation Officer",
-// 		"location": "Manila Bay, Philippines"
-// 	}
-// ];
+// "jobs": [
+		
+		
+		
+		
+		
+// 	],
 
 function displayWork() {
 	$("#workExperience").append(HTMLworkStart);
