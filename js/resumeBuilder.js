@@ -208,12 +208,44 @@ var work = [
 		"description": "Served as an assistant Project Engineer in several areas. Became familiar with high-accuracy GPS systems, basic hydrographic survey equipment, HyPack data collection and analysis software, and routinely served as on-call tech support for Field Operations."
 	},
 	{
+		"employer": "Bean/Stuyvesant, LLC",
+		"title": "Field Engineer",
+		"location": "Tampa Bay, FL"
+	},
+	{
 		"employer": "Fugro Pelagos, Inc.",
 		"title": "Field Hydrographer",
 		"dates": "2007-2010",
 		"location": "San Diego, CA",
 		"description": "Surveyed much of the California Coastline using advanced multibeam sonars, used multibeam and sidescan sonars to locate missing equipment, boats, and debris, and assisted in subsea cable-laying operations in Asia. Set up equipment on ships and boats, including GPS and real-time 3D postioning systems. Served as Lead Hydrographer on short-notice, rapid completion projects. Routinely tasked with testing new or updated equipment and software systems and making necessary adjustments on-the-fly."
 	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Field Engineer",
+		"location": "San Francisco, CA"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Data Analyst",
+		"location": "Dutch Harbor, AK"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Assistant Cable Engineer",
+		"location": "Keelung City, Taiwan"
+	},
+	{
+		"employer": "Fugro Pelagos, Inc.",
+		"title": "Project Navigation Officer",
+		"location": "Manila Bay"
+	},
+	{
+		"employer": "Lowes Home Improvement Stores",
+		"title": "Receiver",
+		"dates": "2014-2015",
+		"location": "Franklin, TN",
+		"description": "Unloaded trucks using heavy machinery, but also stocked shelves, ran POS stations, built displays, drove cleaning machinery, and repaired damage done by customers or clumsy employees. In many ways, doing almost everything possible in the store, short of management."
+	},	
 	{
 		"employer": "Home Depot, Inc.",
 		"title": "Customer service associate-paint, Customer educator",
@@ -228,48 +260,6 @@ var work = [
 		"location": "Nashville, TN",
 		"description": "Worked as a tax preparer in one of the more difficult regions of Nashville. Had clients from the investment, finance, entertainment, education, and medical fields. Each one had it's own difficulties and snags. Regularly worked with multiple IRS forms, including 1040, 1040ez, 1040(c), 1099, and more than a dozen other forms for investments, deductions, child support, etc. Often advised clients on minimizing tax payments and arranging necessary payments."
 	},
-	{
-		"employer": "Lowes Home Improvement Stores",
-		"title": "Receiver",
-		"dates": "2014-2015",
-		"location": "Franklin, TN",
-		"description": "Unloaded trucks using heavy machinery, but also stocked shelves, ran POS stations, built displays, drove cleaning machinery, and repaired damage done by customers or clumsy employees. In many ways, doing almost everything possible in the store, short of management."
-	},
-	{
-		"employer": "Bean/Stuyvesant, LLC",
-		"title": "Field Engineer",
-		"location": "Tampa Bay, FL"
-	},
-	{
-		"employer": "Fugro Pelagos, Inc.",
-		"title": "Field Engineer",
-		"location": "San Francisco, CA"
-	},
-	{
-		"employer": "NOAA/Fugro Pelagos, Inc.",
-		"title": "Data Analyst",
-		"location": "Dutch Harbor, AK"
-	},
-	{
-		"employer": "Fugro Pelagos, Inc.",
-		"title": "GPS Reference Specialist",
-		"location": "Saginaw, MI"
-	},
-	{
-		"employer": "Fugro Pelagos, Inc.",
-		"title": "Assistant Cable Engineer",
-		"location": "Keelung City, Taiwan"
-	},
-	{
-		"employer": "Fugro Pelagos, Inc.",
-		"title": "Project Navigation Officer",
-		"location": "South China Sea"
-	},
-	{
-		"employer": "Fugro Pelagos, Inc.",
-		"title": "Project Navigation Officer",
-		"location": "Manila Bay"
-	}
 ];
 
 
@@ -287,18 +277,6 @@ function displayWork() {
 	$("#workExperience").append(formattedWorkDescription);
 
 	$("#workExperience").append(HTMLworkStart);
-	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work[1].employer);
-	$("#workExperience").append(formattedWorkEmployer);
-	var formattedWorkTitle = HTMLworkTitle.replace("%data%", work[1].title);
-	$("#workExperience").append(formattedWorkTitle);
-	var formattedWorkDates = HTMLworkDates.replace("%data%", work[1].dates);
-	$("#workExperience").append(formattedWorkDates);
-	var formattedWorkLocation = HTMLworkLocation.replace("%data%", work[1].location);
-	$("#workExperience").append(formattedWorkLocation);
-	var formattedWorkDescription = HTMLworkDescription.replace("%data%", work[1].description);
-	$("#workExperience").append(formattedWorkDescription);
-
-	$("#workExperience").append(HTMLworkStart);
 	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work[2].employer);
 	$("#workExperience").append(formattedWorkEmployer);
 	var formattedWorkTitle = HTMLworkTitle.replace("%data%", work[2].title);
@@ -311,27 +289,39 @@ function displayWork() {
 	$("#workExperience").append(formattedWorkDescription);
 
 	$("#workExperience").append(HTMLworkStart);
-	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work[3].employer);
+	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work[9].employer);
 	$("#workExperience").append(formattedWorkEmployer);
-	var formattedWorkTitle = HTMLworkTitle.replace("%data%", work[3].title);
+	var formattedWorkTitle = HTMLworkTitle.replace("%data%", work[9].title);
 	$("#workExperience").append(formattedWorkTitle);
-	var formattedWorkDates = HTMLworkDates.replace("%data%", work[3].dates);
+	var formattedWorkDates = HTMLworkDates.replace("%data%", work[9].dates);
 	$("#workExperience").append(formattedWorkDates);
-	var formattedWorkLocation = HTMLworkLocation.replace("%data%", work[3].location);
+	var formattedWorkLocation = HTMLworkLocation.replace("%data%", work[9].location);
 	$("#workExperience").append(formattedWorkLocation);
-	var formattedWorkDescription = HTMLworkDescription.replace("%data%", work[3].description);
+	var formattedWorkDescription = HTMLworkDescription.replace("%data%", work[9].description);
 	$("#workExperience").append(formattedWorkDescription);
 
 	$("#workExperience").append(HTMLworkStart);
-	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work[4].employer);
+	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work[7].employer);
 	$("#workExperience").append(formattedWorkEmployer);
-	var formattedWorkTitle = HTMLworkTitle.replace("%data%", work[4].title);
+	var formattedWorkTitle = HTMLworkTitle.replace("%data%", work[7].title);
 	$("#workExperience").append(formattedWorkTitle);
-	var formattedWorkDates = HTMLworkDates.replace("%data%", work[4].dates);
+	var formattedWorkDates = HTMLworkDates.replace("%data%", work[7].dates);
 	$("#workExperience").append(formattedWorkDates);
-	var formattedWorkLocation = HTMLworkLocation.replace("%data%", work[4].location);
+	var formattedWorkLocation = HTMLworkLocation.replace("%data%", work[7].location);
 	$("#workExperience").append(formattedWorkLocation);
-	var formattedWorkDescription = HTMLworkDescription.replace("%data%", work[4].description);
+	var formattedWorkDescription = HTMLworkDescription.replace("%data%", work[7].description);
+	$("#workExperience").append(formattedWorkDescription);
+
+	$("#workExperience").append(HTMLworkStart);
+	var formattedWorkEmployer = HTMLworkEmployer.replace("%data%", work[8].employer);
+	$("#workExperience").append(formattedWorkEmployer);
+	var formattedWorkTitle = HTMLworkTitle.replace("%data%", work[8].title);
+	$("#workExperience").append(formattedWorkTitle);
+	var formattedWorkDates = HTMLworkDates.replace("%data%", work[8].dates);
+	$("#workExperience").append(formattedWorkDates);
+	var formattedWorkLocation = HTMLworkLocation.replace("%data%", work[8].location);
+	$("#workExperience").append(formattedWorkLocation);
+	var formattedWorkDescription = HTMLworkDescription.replace("%data%", work[8].description);
 	$("#workExperience").append(formattedWorkDescription);
 };
 
