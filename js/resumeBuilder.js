@@ -12,7 +12,7 @@
 		},
 		"welcomeMessage": "New beginnings can bring greater ends.",
 		"skills": [
-			"HTML/CSS", "JavaScript/jQuery", "Caris and HyPack Software", "General Insanity"
+			"HTML/CSS", "JavaScript/jQuery", "Website Construction", "General Insanity"
 		],
 		"bioPic": "images/headshot.jpg"
 	};
@@ -329,14 +329,14 @@
 			{
 				"title": "Portfolio",
 				"dates": "2016",
-				"description": "First iteration of my personal portfolio. Updates will be coming out as projects are finished.",
+				"description": "First iteration of my personal portfolio. Updates will be coming out as projects are finished and/or updated.",
 				"images": "images/Portfolio_mk1.15.jpg"
 			},
 			{
 				"title": "Dylan's Page",
 				"dates": "2016",
-				"description": "This is a page I built for my toddler-age son as practice for some of my classes. I never intended to put it fully online but that may change once I'm satisfied witht the outcome.",
-				"images": "images/Dylan_1yr_005_E.jpg"
+				"description": "I built this one for practice right after finishing the portfolio project. It has JavaScript modals built in, providing larger images and notes from the photographer and parents.",
+				"images": "images/Dylans_page.jpg"
 			},
 			{
 				"title": "Animal Trading Card",
@@ -345,10 +345,10 @@
 				"images": "images/AnimalCard.jpg"	
 			},
 			{
-				"title": "Sample",
+				"title": "Under Construction",
 				"dates": "2016",
-				"description": "Sample",
-				"images": "images/img_1316.jpg"	
+				"description": "As always, there are projects in the works. There should be at least two more projects and several more classes listed on this resume in the near future. Until then, have a picture of a puppy.",
+				"images": "http://lorempixel.com/640/480/animals/8"	
 			}
 		]
 	}
