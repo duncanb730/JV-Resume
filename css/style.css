@@ -10,9 +10,14 @@ h4,
 h5,
 h6 {
   padding:0;
-  margin-left: 10px;
-  margin-right: 10px;
   font-family: "Roboto", sans-serif;
+}
+
+.workExperience,
+.projects,
+.education {
+  margin-left: 10px;
+  margin-right: 15px;
 }
 
 .clear-fix {
