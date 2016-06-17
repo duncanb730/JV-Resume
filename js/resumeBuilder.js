@@ -101,6 +101,12 @@
 				"school": "Udacity",
 				"dates": "2016",
 				"URL": "http://www.udacity.com"
+			},
+			{
+				"title": "jQuery Syntax",
+				"school": "Udacity",
+				"dates": "2016",
+				"URL": "http://www.udacity.com"
 			}
 		]
 	};
@@ -174,6 +180,15 @@
 		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[4].dates);
 		$("#education").append(formattedOnlineDates);
 		var formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[4].URL);
+		$("#education").append(formattedOnlineURL);
+
+		var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[5].title);
+		$("#education").append(formattedOnlineTitle);
+		var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[5].school);
+		$("#education").append(formattedOnlineSchool);
+		var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[5].dates);
+		$("#education").append(formattedOnlineDates);
+		var formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[5].URL);
 		$("#education").append(formattedOnlineURL);
 	};
 
