@@ -12,7 +12,7 @@
 		},
 		"welcomeMessage": "New beginnings can bring greater ends.",
 		"skills": [
-			"HTML/CSS", "JavaScript/jQuery", "Website Construction", "General Insanity"
+			"HTML/CSS", "JavaScript/jQuery", "Website Construction", "AJAX", "iOS/Swift", "General Insanity"
 		],
 		"bioPic": "images/headshot.jpg"
 	};
@@ -49,6 +49,10 @@
 			 var formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
 			 $("#skills").append(formattedSkill);
 			 var formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
+			 $("#skills").append(formattedSkill);
+			 var formattedSkill = HTMLskills.replace("%data%", bio.skills[4]);
+			 $("#skills").append(formattedSkill);
+			 var formattedSkill = HTMLskills.replace("%data%", bio.skills[5]);
 			 $("#skills").append(formattedSkill);
 		}
 	};
