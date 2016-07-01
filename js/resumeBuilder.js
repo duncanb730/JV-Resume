@@ -308,7 +308,7 @@ $(document).click(function(loc) {
 
     logClicks(x, y);
 });
-var projects = {
+var Projects = {
     "project": [{
         "title": "Portfolio",
         "dates": "2016",
@@ -351,7 +351,7 @@ Projects.display = function () {
         }
     }
 }
-displayProjects();
+// displayProjects();
 
 // function displayProjects() {
 //     $("#projects").append(HTMLprojectStart);
