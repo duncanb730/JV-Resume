@@ -308,7 +308,7 @@ $(document).click(function(loc) {
 
     logClicks(x, y);
 });
-var Projects = {
+var projects = {
     "project": [{
         "title": "Portfolio",
         "dates": "2016",
@@ -330,70 +330,48 @@ var Projects = {
         "description": "As always, there are projects in the works. There should be at least two more projects and several more classes listed on this resume in the near future. Until then, have a picture of a puppy.",
         "images": "http://lorempixel.com/640/480/animals/8"
     }]
-};
-
-Projects.display = function () {
-    for (project in projects.projects) {
-        $("#projects").append(HTMLprojectStart);
-
-        var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
-        $(".project-entry:last").append(formattedTitle);
-        var formattedDates = HTMLprojectDates.replace("%data%". projects.projects[project].dates);
-        $(".project-entry:last").append(formattedDates);
-        var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
-        $(".project-entry:last").append(formattedDescription);
-
-        if (projects.projects[project].images.length > 0) {
-            for (image in projects.projects.[project].images) {
-                var formattedImage + HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);
-                $(".project-entry:last").append (formattedImage);
-            }
-        }
-    }
 }
-// displayProjects();
+function displayProjects() {
+    $("#projects").append(HTMLprojectStart);
+    var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.project[0].title);
+    $("#projects").append(formattedProjectTitle);
+    var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.project[0].dates);
+    $("#projects").append(formattedProjectDates);
+    var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.project[0].description);
+    $("#projects").append(formattedProjectDescription);
+    var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.project[0].images);
+    $("#projects").append(formattedProjectImage);
 
-// function displayProjects() {
-//     $("#projects").append(HTMLprojectStart);
-//     var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.project[0].title);
-//     $("#projects").append(formattedProjectTitle);
-//     var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.project[0].dates);
-//     $("#projects").append(formattedProjectDates);
-//     var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.project[0].description);
-//     $("#projects").append(formattedProjectDescription);
-//     var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.project[0].images);
-//     $("#projects").append(formattedProjectImage);
+    $("#projects").append(HTMLprojectStart);
+    var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.project[1].title);
+    $("#projects").append(formattedProjectTitle);
+    var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.project[1].dates);
+    $("#projects").append(formattedProjectDates);
+    var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.project[1].description);
+    $("#projects").append(formattedProjectDescription);
+    var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.project[1].images);
+    $("#projects").append(formattedProjectImage);
 
-//     $("#projects").append(HTMLprojectStart);
-//     var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.project[1].title);
-//     $("#projects").append(formattedProjectTitle);
-//     var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.project[1].dates);
-//     $("#projects").append(formattedProjectDates);
-//     var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.project[1].description);
-//     $("#projects").append(formattedProjectDescription);
-//     var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.project[1].images);
-//     $("#projects").append(formattedProjectImage);
+    $("#projects").append(HTMLprojectStart);
+    var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.project[2].title);
+    $("#projects").append(formattedProjectTitle);
+    var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.project[2].dates);
+    $("#projects").append(formattedProjectDates);
+    var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.project[2].description);
+    $("#projects").append(formattedProjectDescription);
+    var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.project[2].images);
+    $("#projects").append(formattedProjectImage);
 
-//     $("#projects").append(HTMLprojectStart);
-//     var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.project[2].title);
-//     $("#projects").append(formattedProjectTitle);
-//     var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.project[2].dates);
-//     $("#projects").append(formattedProjectDates);
-//     var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.project[2].description);
-//     $("#projects").append(formattedProjectDescription);
-//     var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.project[2].images);
-//     $("#projects").append(formattedProjectImage);
-
-//     $("#projects").append(HTMLprojectStart);
-//     var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.project[3].title);
-//     $("#projects").append(formattedProjectTitle);
-//     var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.project[3].dates);
-//     $("#projects").append(formattedProjectDates);
-//     var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.project[3].description);
-//     $("#projects").append(formattedProjectDescription);
-//     var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.project[3].images);
-//     $("#projects").append(formattedProjectImage);
-// }
-// displayProjects();
+    $("#projects").append(HTMLprojectStart);
+    var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.project[3].title);
+    $("#projects").append(formattedProjectTitle);
+    var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.project[3].dates);
+    $("#projects").append(formattedProjectDates);
+    var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.project[3].description);
+    $("#projects").append(formattedProjectDescription);
+    var formattedProjectImage = HTMLprojectImage.replace("%data%", projects.project[3].images);
+    $("#projects").append(formattedProjectImage);
+}
+displayProjects();
 
 $("#mapDiv").append(googleMap);
