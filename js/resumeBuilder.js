@@ -190,9 +190,9 @@ for (var i = 0; i < education.schools.length; i++) {
     $(".education-entry:last").append(formattedLocation);
     var formattedMajor = HTMLschoolMajor.replace("%data%", education.schools[i].major);
     $(".education-entry:last").append(formattedMajor);
-
+    $("#education").append(HTMLonlineClasses);
 }
-$("#education").append(HTMLonlineClasses);
+
 for (var i = 0; i < education.onlineCourses.length; i++) {
     $("#education").append(HTMLschoolStart);
     var formattedTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[i].title);
