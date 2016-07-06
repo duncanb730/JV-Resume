@@ -16,7 +16,7 @@ var bio = {
     ],
     "biopic": "images/headshot.jpg"
 };
-function displayBio() {
+bio.display = function() {
     var formattedName = HTMLheaderName.replace("%data%", bio.name);
     var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
     var formattedHome = HTMLhome.replace("%data%", bio.contacts.home);
@@ -40,20 +40,20 @@ function displayBio() {
     $("#skills").append(formattedSkill);
    }
 }
-displayBio();
+bio.display();
 
 var education = {
     "schools": [{
         "name": "Cape Fear Community College",
         "location": "Wilmington, NC",
         "degree": "AAS",
-        "majors": "Marine Technology",
+        "majors": ["Marine Technology"],
         "dates": "2000-2003"
     }, {
         "name": "Belmont University",
         "location": "Nashville, TN",
         "degree": "BS",
-        "majors": "General Sciences",
+        "majors": ["General Sciences"],
         "dates": "2010-2013"
     }],
     "onlineCourses": [{
