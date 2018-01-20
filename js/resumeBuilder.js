@@ -159,12 +159,12 @@ var projects = {
     }, {
         "title": "Animal Trading Card",
         "dates": "2016",
-        "description": "This one was simple but fun.",
+        "description": "This one was simpler but fun. I built a set of over 200 cards and designed to help someone's kids with their studying. It was designed for and worked best on a mobile screen but it could be used on a larger computer screen as well.",
         "images": ["images/AnimalCard.jpg"]
     }, {
-        "title": "Under Construction",
-        "dates": "2016",
-        "description": "As always, there are projects in the works. There should be at least two more projects and several more classes listed on this resume in the near future. Until then, have a picture of a puppy.",
+        "title": "Somethings can't be listed ",
+        "dates": "2016-Current",
+        "description": "As you'd imagine, every client has some interest in privacy. I've done projects for several companies, from overall design and construction to general repairs and updates. To avoid copyright issues, it might be wiser for me to just put up have a picture of a puppy.",
         "images": ["http://lorempixel.com/640/480/animals/8"]
     }]
 };
